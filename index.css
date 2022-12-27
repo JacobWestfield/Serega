@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+* {
+    margin: 0 auto;
+}
+
+.container {
+    height: 100vh;
+    background-image: url('puck.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button {
+    position: absolute;
+    left: 20%;
+    top: 15%;
+    border: 2px solid blue;
+    background-color: #19dcea;
+    border-radius:  40px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 60px;
+}
+
+
+span {
+    padding: 15px 50px;
+    color: rgb(0, 0, 0);
+}
+/* 
+button:hover {
+    animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+} */
+button:hover {
+    animation: color-change-5x 5s linear infinite alternate both;
+}
+@keyframes color-change-5x {
+    0% {
+      background: #19dcea;
+      box-shadow: 0 0 0 0 rgba(160, 5, 250, 0);
+    }
+    25% {
+      background: #b22cff;
+      box-shadow: 0 0 90px 20px rgba(136, 7, 241, 0.966);
+    }
+    50% {
+      background: #ea2222;
+      box-shadow: 0 0 90px 40px rgba(136, 7, 241, 0.966);
+    }
+    75% {
+      background: #f5be10;
+      box-shadow: 0 0 90px 20px rgba(136, 7, 241, 0.966);
+    }
+    100% {
+      background: #3bd80d;
+      box-shadow: 0 0 0px 0px rgba(136, 7, 241, 0.966);
+    }
+}
+/* @keyframes shadow-drop-center {
+    0% {
+      box-shadow: 0 0 0 0 rgba(160, 5, 250, 0);
+    }
+    100% {
+      box-shadow: 0 0 90px 40px rgba(136, 7, 241, 0.966);
+    }
+} */
