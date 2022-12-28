@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+
 
 * {
     margin: 0 auto;
@@ -12,13 +14,14 @@
 }
 
 button {
-    position: absolute;
+    /* position: absolute;
     left: 20%;
-    top: 15%;
+    top: 15%; */
     border: 2px solid blue;
     background-color: #19dcea;
     border-radius:  40px;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
+    font-family: 'Nabla', cursive;
     font-size: 60px;
 }
 
@@ -41,19 +44,19 @@ button:hover {
     }
     25% {
       background: #b22cff;
-      box-shadow: 0 0 90px 20px rgba(136, 7, 241, 0.966);
+      box-shadow: 0 0 90px 20px #b22cff;
     }
     50% {
       background: #ea2222;
-      box-shadow: 0 0 90px 40px rgba(136, 7, 241, 0.966);
+      box-shadow: 0 0 90px 40px #ea2222;
     }
     75% {
       background: #f5be10;
-      box-shadow: 0 0 90px 20px rgba(136, 7, 241, 0.966);
+      box-shadow: 0 0 90px 20px #f5be10;
     }
     100% {
       background: #3bd80d;
-      box-shadow: 0 0 0px 0px rgba(136, 7, 241, 0.966);
+      box-shadow: 0 0 0px 0px #3bd80d;
     }
 }
 /* @keyframes shadow-drop-center {
