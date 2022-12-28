@@ -12,14 +12,14 @@
         <button id="music"><span>Press me</span></button>
     </div>
     <script>
-        let music = new Audio("Vo_puck_puck_move_04.mp3");
         const btn = document.getElementById('music');
         const containerDiv = document.querySelector('.container');
         btn.addEventListener('click', () => {
+            let music = new Audio("Vo_puck_puck_move_04.mp3");
             const img = document.createElement('img');
-            img.setAttribute('src', 'https://i.imgur.com/MhCUacD.gif');
+            img.setAttribute('src', '/puck.gif');
             containerDiv.appendChild(img);
-            setInterval(() => new Audio("Vo_puck_puck_move_04.mp3").play(), 1000);
+            setInterval(()=> music.play(), 500)
         })
     </script>
 </body>
