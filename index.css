@@ -16,16 +16,24 @@
 
 .container {
     position: fixed;
-    height: 100vh;
+    height: 50vh;
     /* background: url('puck.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-button {
-    /* position: absolute;
-    left: 20%;
-    top: 15%; */
+.container {
+  position: fixed;
+  height: 50vh;
+  /* background: url('puck.jpg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#music {
+    position: fixed;
+    left: 0;
+    top: 0;
     border: 2px solid blue;
     background-color: #19dcea;
     border-radius:  40px;
@@ -33,7 +41,17 @@ button {
     font-family: 'Nabla', cursive;
     font-size: 60px;
 }
-
+#BASS {
+  position: fixed;
+    left: 0;
+    top: 50vh;
+    border: 2px solid blue;
+    background-color: #19dcea;
+    border-radius:  40px;
+    /* font-family: 'Kanit', sans-serif; */
+    font-family: 'Nabla', cursive;
+    font-size: 60px;
+}
 
 span {
     padding: 15px 50px;
@@ -76,3 +94,9 @@ button:hover {
       box-shadow: 0 0 90px 40px rgba(136, 7, 241, 0.966);
     }
 } */
+
+
+.gif {
+  width:100px;
+  max-height: 100px;
+}
